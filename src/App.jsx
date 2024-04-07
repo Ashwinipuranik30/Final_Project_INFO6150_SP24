@@ -15,12 +15,14 @@ import Asia from './Pages/asia';
 import Home from './Pages/home';
 import Login from './Pages/login';
 import Footer from './Components/Footer';
+import Nav from './Components/Nav';
 
 const App = () => {
   return (
     <Router>
+      <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<About />} />
         <Route path="/contactus" element={<Contactus />} />
         <Route path="/login" element={<Login />} />
