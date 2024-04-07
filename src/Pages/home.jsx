@@ -1,6 +1,10 @@
+import { Link } from 'react-router-dom';
+import Banner from '../Components/Banner'
 const Home = () => {
     return (
-      <div>Home page</div>
+      <div>
+        <Banner />
+      </div>
     );
   };
   
