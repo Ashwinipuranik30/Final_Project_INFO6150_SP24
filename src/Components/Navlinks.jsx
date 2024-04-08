@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
-
+import Buttons from './Buttons';
 
 
 const Navlinks = () => {
@@ -12,7 +12,7 @@ const Navlinks = () => {
     setShowDropdown(!showDropdown);
   };
   return (
-    
+    <>
       <div className="hidden md:flex md:w-auto md:order-1">
        
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
@@ -59,12 +59,13 @@ const Navlinks = () => {
             </li>
            
           </ul>
-          
-       
-       
-     
-      </div>
-   
+          </div>
+          <div className = "flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+              <Buttons href="/login" color="text-teal-500 bg-white hover:bg-teal-50">
+                LOGIN
+              </Buttons>
+          </div>
+    </>
 
   );
 };
