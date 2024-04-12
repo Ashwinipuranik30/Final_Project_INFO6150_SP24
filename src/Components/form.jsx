@@ -1,0 +1,71 @@
+import React, { useState } from 'react';
+
+const Form = ({ fields, onSubmit }) => {
+  const [formData, setFormData] = useState({});
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onSubmit(formData);
+    setFormData({}); // Reset form data
+  };
+
+
+
+  return (
+    <form onSubmit={handleSubmit} className="mx-auto mt-16 max-w-xl">
+      {fields.map((field) => (
+        <div key={field.name} className="mb-8">
+          <label htmlFor={field.name} className="block text-sm font-semibold text-gray-900">
+            {field.label}
+          </label>
+          {field.type === 'select' ? (
+            <select
+              id={field.name}
+              name={field.name}
+              value={formData[field.name] || ''}
+              onChange={handleChange}
+              className="block w-full mt-1 rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              required={field.required}
+            >
+              <option value="" disabled>Select {field.label}</option>
+              {field.options.map((option) => (
+                <option key={option} value={option}>{option}</option>
+              ))}
+            </select>
+          ) : field.type === 'textarea' ? (
+            <textarea
+              id={field.name}
+              name={field.name}
+              value={formData[field.name] || ''}
+              onChange={handleChange}
+              className="block w-full px-3.5 py-2 mt-1 rounded-md  border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              placeholder={field.placeholder}
+              required={field.required}
+            ></textarea>
+          ) : (
+            <input
+              type={field.type}
+              id={field.name}
+              name={field.name}
+              value={formData[field.name] || ''}
+              onChange={handleChange}
+              className="block w-full px-3.5 py-2 mt-1 rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              placeholder={field.placeholder}
+              required={field.required}
+            />
+          )}
+        </div>
+      ))}
+      <button type="submit"  className="block w-full mt-6 rounded-md bg-teal-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-500"  >
+        Submit
+      </button>
+    </form>
+  );
+};
+
+export default Form;
