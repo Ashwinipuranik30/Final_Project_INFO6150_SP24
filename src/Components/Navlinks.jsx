@@ -60,7 +60,7 @@ const Navlinks = () => {
            
           </ul>
           </div>
-          <div className = "flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <div className = "flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
               <Buttons href="/login" color="text-teal-500 bg-white hover:bg-teal-50">
                 LOGIN
               </Buttons>
