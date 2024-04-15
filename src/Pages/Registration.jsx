@@ -94,7 +94,7 @@ const Registration = () => {
       {submittedData && (
         
           
-          <div className="mt-6 p-4 bg-gray-200 border rounded-lg text-gray-800">
+          <div className="mx-24 my-16 p-4 bg-gray-200 border rounded-lg text-gray-800">
             <h2 className="text-xl font-semibold mb-2">Submitted Data:</h2>
             {Object.keys(submittedData).map((key) => (
               <p key={key}><strong>{key}:</strong> {submittedData[key]}</p>
