@@ -1,6 +1,13 @@
+import Herosection from "../Components/Herosection";
+
 const About = () => {
     return (
-      <div>About page</div>
+      <>
+        <Herosection 
+          heroImg = "Heroimage_about.jpg"
+          title ="About Us"
+        />
+      </>
     );
   };
   

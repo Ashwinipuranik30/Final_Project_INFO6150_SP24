@@ -1,9 +1,14 @@
 import Contactform from '../Components/Contactform'
 import Contactinfo from '../Components/Contactinfo';
+import Herosection from "../Components/Herosection";
 
-import ContactContainer from '../Components/Contactinfo';
 const Contactus = () => {
     return (
+      <>
+      <Herosection 
+          heroImg = "Heroimage_contact.jpg"
+          title ="Contact Us"
+        />
       <div className ="bg-white" id="contact">
       <div className ="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
         <h1 className ="mb-4 text-3xl font-serif tracking-tight leading-none text-amber-400 md:text-5xl lg:text-6xl ">Contact Us</h1>
@@ -21,7 +26,7 @@ const Contactus = () => {
         </div>
         
       </div>
-      
+      </>
     );
   };
   
