@@ -15,7 +15,7 @@ const SummerSaleSection = () => {
           </p>
         </div>
         <div className="order-1 lg:order-2">
-          <img className="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px]" src="Heroimage_deal.jpg" alt="In the beach" />
+          <img className="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px]" src="\src\assets\images\Heroimage_deal.jpg" alt="In the beach" />
         </div>
       </div>
     </section>
