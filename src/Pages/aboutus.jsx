@@ -9,6 +9,13 @@ const About = () => {
     return (
       <div>
 
+              <Herosection 
+                  heroImg = "Heroimage_about.jpg"
+                  title ="About Us"
+                />
+
+                
+
         <section className="bg-white">
               <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
                 <div className="bg-teal-500 border border-gray-200 rounded-lg p-8 md:p-12 mb-8">
