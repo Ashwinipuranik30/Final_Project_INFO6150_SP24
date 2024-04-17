@@ -6,7 +6,7 @@ const Contactus = () => {
     return (
       <>
       <Herosection 
-          heroImg = "Heroimage_contact.jpg"
+          heroImg = "\src\assets\images\Heroimage_contact.jpg"
           title ="Contact Us"
         />
       <div className ="bg-white" id="contact">

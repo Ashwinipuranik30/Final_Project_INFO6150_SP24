@@ -4,7 +4,7 @@ const About = () => {
     return (
       <>
         <Herosection 
-          heroImg = "Heroimage_about.jpg"
+          heroImg = "\src\assets\images\Heroimage_about.jpg"
           title ="About Us"
         />
       </>
