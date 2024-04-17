@@ -1,6 +1,9 @@
+import SummerSaleSection from "../Components/dealheroimage";
 const Deals = () => {
     return (
-      <div>Deal page</div>
+      <div>
+        <SummerSaleSection />
+      </div>
     );
   };
   
