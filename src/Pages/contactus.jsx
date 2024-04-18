@@ -1,5 +1,6 @@
 import Contactform from '../Components/Contactform'
 import Contactinfo from '../Components/Contactinfo';
+import Faq from '../Components/Faq';
 import Herosection from "../Components/Herosection";
 
 const Contactus = () => {
@@ -26,6 +27,7 @@ const Contactus = () => {
         </div>
         
       </div>
+      <Faq />
       </>
     );
   };
