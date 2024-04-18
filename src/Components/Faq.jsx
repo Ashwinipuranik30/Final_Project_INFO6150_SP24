@@ -26,7 +26,7 @@ const Faq = () => {
 
         <Faqsection
           question="What are the payment options?"
-          answer="We accept various payment methods, including credit/debit cards, bank transfers, and online payment platforms. Our secure payment gateway ensures that your financial information is protected."
+          answer="We accept various payment methods, including credit/debit cards and bank transfers. Our secure payment gateway ensures that your financial information is protected."
         />
         <Faqsection
           question="In case of any unexpected changes/emergencies during tour?"
