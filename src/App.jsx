@@ -16,11 +16,13 @@ import Home from './Pages/home';
 import Login from './Pages/login';
 import Footer from './Components/Footer';
 import Nav from './Components/Nav';
+import Banner from './Components/Banner';
 
 const App = () => {
   return (
     <Router>
       <Nav />
+      <Banner />
       <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<About />} />
@@ -37,6 +39,7 @@ const App = () => {
         <Route path="/destination/europe/italy" element={<Italy />} />
         <Route path="/deals" element={<Deals />} />
       </Routes>
+      
       <Footer />
     </Router>
   );

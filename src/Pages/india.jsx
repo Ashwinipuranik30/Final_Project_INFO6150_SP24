@@ -7,7 +7,7 @@ import DestinationIntro from "../Components/DestinationIntro";
   import Itinerary from "../Components/itenary";
   const days = [
     {
-      title: 'DDay 1: Arrive in Delhi, India + Welcome dinner',
+      title: 'Day 1: Arrive in Delhi, India + Welcome dinner',
       description: 'Namaste! Arrive at the Indira Gandhi International Airport. After arriving in India, check in to your hotel and begin your adventure. India is a country with vivid cuisine. Take your time to visit the restaurants in your hotel. Have a welcome dinner with the group.',
     },
     {
