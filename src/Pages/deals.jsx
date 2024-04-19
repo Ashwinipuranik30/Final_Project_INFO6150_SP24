@@ -47,7 +47,7 @@ const Deals = () => {
   const cards_2 = [
     {
       imageSrc:"/src/assets/images/India_deals.jpg",
-      tourLink:"",
+      tourLink:"/destination/asia/india",
           tourTitle:"Vibrant India",
           tourDuration:"10 DAY TOUR",
           showPricesAndButton:true,
@@ -58,7 +58,7 @@ const Deals = () => {
     },
     {
       imageSrc:"/src/assets/images/Vegas_deals.jpg",
-      tourLink:"",
+      tourLink:"/registration",
       tourTitle:"Vegas Thrills",
       tourDuration:"7 DAY TOUR",
       showPricesAndButton:true,
@@ -69,7 +69,7 @@ const Deals = () => {
     },
     {
       imageSrc:"/src/assets/images/Thailand_deals.jpg",
-          tourLink:"thailand.html",
+          tourLink:"/destination/asia/thailand",
           tourTitle:"Thai Tropical Adventure",
           tourDuration:"5 DAY TOUR",
           showPricesAndButton:true,
