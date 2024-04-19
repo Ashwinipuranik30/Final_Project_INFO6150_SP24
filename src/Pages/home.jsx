@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import Banner from '../Components/Banner'
 import ImageGrid from '../Components/imagegrid';
 import DealCard from '../Components/dealcard';
+import Carousel from '../Components/corousel';
 
 
 const images = [
@@ -53,6 +54,7 @@ const Home = () => {
     return (
       <div>
         <Banner />
+        <Carousel />
 
       <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-10">
