@@ -17,7 +17,7 @@ const images = [
 const cards = [
   {
     imageSrc: 'https://images.pexels.com/photos/13692199/pexels-photo-13692199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tourLink: 'france.html',
+    tourLink: '/destination/europe/france',
     tourTitle: 'Chic France',
     tourDuration: '10 DAY TOUR',
     tourDescription: 'France with captivating blend of art, history, and gastronomy, boasting iconic landmarks like the Eiffel Tower and stunning landscapes like the French Riviera. From its exquisite cuisine to its rich cultural heritage, France offers an unforgettable experience for every traveler.',
@@ -28,7 +28,7 @@ const cards = [
   },
   {
     imageSrc: 'https://images.pexels.com/photos/3601426/pexels-photo-3601426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tourLink: 'maldives.html',
+    tourLink: '/destination/asia/maldives',
     tourTitle: 'Maldives Serenity Retreat',
     tourDuration: '7 DAY TOUR',
     tourDescription: 'Discover paradise in the Maldives, a tropical paradise renowned for its pristine beaches, vibrant coral reefs, and luxurious overwater bungalows. Escape to this idyllic destination for unparalleled relaxation and unforgettable underwater adventures.',
@@ -39,7 +39,7 @@ const cards = [
   },
   {
     imageSrc: 'https://images.pexels.com/photos/531602/pexels-photo-531602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tourLink: 'italy.html',
+    tourLink: '/destination/europe/italy',
     tourTitle: 'The Best of Italy',
     tourDuration: '10 DAY TOUR',
     tourDescription: 'Explore Italy\'s timeless beauty with whispers of ancient ruins and Renaissance art, accompanied by tantalizing cuisine that enchants every traveler\'s heart. Italy beckons with a symphony of sights and flavors, promising an unforgettable journey.',
