@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -10,6 +10,14 @@ const Carousel = () => {
   const handleNextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide === 2 ? 0 : prevSlide + 1));
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide === 2 ? 0 : prevSlide + 1));
+    }, 5000); // Change slide every 5 seconds (5000 milliseconds)
+
+    return () => clearInterval(interval);
+  }, []);
 
   const images = [
     'https://images.pexels.com/photos/3155644/pexels-photo-3155644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
