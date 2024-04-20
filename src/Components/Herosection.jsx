@@ -1,6 +1,6 @@
 const Herosection = (props) => {
     return (
-        <div className="relative isolate overflow-hidden  text-center bg-gray-900 py-24 sm:py-32">
+        <div className="relative isolate overflow-hidden  text-center bg-gray-900 py-24 lg:py-56">
           <img
             className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
             src={props.heroImg}
@@ -11,3 +11,4 @@ const Herosection = (props) => {
       );
     };
     export default Herosection;
+    
