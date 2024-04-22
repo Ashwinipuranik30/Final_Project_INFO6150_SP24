@@ -144,7 +144,13 @@ const Deals = () => {
         ))}
       </div>
     </div>
-    <div></div>
+    <div>
+    <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+      <p class="mt-2 text-slate-500">*Prices displayed are per person and are in United States Dollars. Additional fees, taxes, and surcharges may apply. Our travel experts are available to assist you in finding the best deal tailored to your preferences.
+        Contact us  for more information.
+      </p>
+    </div>
+    </div>
     </>
     );
   };

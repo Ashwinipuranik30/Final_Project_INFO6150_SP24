@@ -1,9 +1,28 @@
 import Contactform from '../Components/Contactform'
 import Contactinfo from '../Components/Contactinfo';
 import Faq from '../Components/Faq';
+import ImageGrid from '../Components/imagegrid';
 import Herosection from "../Components/Herosection";
+import gallery1 from "../assets/images/gallery1.jpg";
+import gallery2 from "../assets/images/gallery2.jpg";
+import gallery3 from "../assets/images/gallery3.jpg";
+import gallery4 from "../assets/images/gallery4.jpg";
+import gallery5 from "../assets/images/gallery5.jpg";
+import gallery6 from "../assets/images/gallery6.jpg";
+
+
 
 const Contactus = () => {
+
+  const images = [
+    { src: gallery1, alt: 'Couple In Paris' },
+    { src: gallery2 , alt: 'Eiffel Tower' },
+    { src: gallery3, alt: 'Traveler' },
+    { src: gallery4, alt: 'Couple In Paris' },
+    { src: gallery5 , alt: 'Eiffel Tower' },
+    { src: gallery6, alt: 'Traveler' },
+    
+  ];
     return (
       <>
       <Herosection 
@@ -28,6 +47,13 @@ const Contactus = () => {
         
       </div>
       <Faq />
+
+      <ImageGrid images={images} heading="This is how we do travel" />
+      
+
+      
+
+      
       </>
     );
   };
