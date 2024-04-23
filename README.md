@@ -16,9 +16,9 @@ We have used the Scrum Agile methodology to manage this final project.
 
 Welcome to my Travel Agency project! This application provides a platform for users to explore  and book their dream vacations effortlessly.
 
-1. The website Tripinn contains home page, name index.html. This page is the entry page of the web application. It tells potential clients why they should choose us, what are the top destinations provided, reviews and traveler pictures. From the home page users acn navigate to every other pages of the website.
-2. Users can view all the destinations offered from the destination page
-3. Users can view the ongoing deals from the deals page
+1. The website Tripinn contains home page. This page is the entry page of the web application. It tells potential clients why they should choose us, what are the top destinations provided, reviews and traveler pictures. From the home page users can navigate to every other pages of the website.
+2. Users can view all the destinations offered from the Europe & Asia Destination page
+3. Users can view the on-going deals from the deals page
 4. Users can register their dream vacation using the reservaton form.
 5. Users can view the contact details of the company and send query
 6. Users can view about the company and its values from about us page
