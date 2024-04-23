@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 
 const Form = ({ fields, onSubmit }) => {
   const [formData, setFormData] = useState({});
-
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+  const { name, value } = e.target;
+  setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = (e) => {

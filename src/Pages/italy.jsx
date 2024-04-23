@@ -59,7 +59,7 @@ const Italy = () => {
       <div>
         <Herosection 
                   heroImg = "\src\assets\images\Heroimage_italy.jpg"
-                  
+                  title ="Italy"
                 />
       <DestinationIntro
         title="The Best of Italy"

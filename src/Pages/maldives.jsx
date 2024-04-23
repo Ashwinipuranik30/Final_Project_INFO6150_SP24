@@ -51,7 +51,7 @@
         <div>
           <Herosection 
                     heroImg = "\src\assets\images\Heroimage_maldives.jpg"
-                    
+                    title = "Maldives"
                   />
         <DestinationIntro
           title="Maldives Serenity Retreat"

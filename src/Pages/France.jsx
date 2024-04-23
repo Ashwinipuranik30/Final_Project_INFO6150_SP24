@@ -42,7 +42,7 @@
         <div>
           <Herosection 
                     heroImg = "\src\assets\images\Heroimage_france.jpg"
-                    
+                    title ="France"
                   />
         <DestinationIntro
           title="Chic France"

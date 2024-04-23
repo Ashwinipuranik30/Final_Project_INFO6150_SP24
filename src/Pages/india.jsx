@@ -61,7 +61,7 @@ import DestinationIntro from "../Components/DestinationIntro";
         <div>
           <Herosection 
                     heroImg = "\src\assets\images\Heroimage_india.jpg"
-                    
+                    title ="India"
                   />
         <DestinationIntro
           title="Vibrant India"

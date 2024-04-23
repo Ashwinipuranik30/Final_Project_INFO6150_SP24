@@ -43,7 +43,7 @@
         <div>
           <Herosection 
                     heroImg = "\src\assets\images\Heroimage_thailand.jpg"
-                    
+                    title = "Thailand"
                   />
         <DestinationIntro
           title="Thai Tropical Adventure"

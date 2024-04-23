@@ -44,10 +44,11 @@ const cards = [
     tourTitle: 'The Best of Italy',
     tourDuration: '10 DAY TOUR',
     tourDescription: 'Explore Italy\'s timeless beauty with whispers of ancient ruins and Renaissance art, accompanied by tantalizing cuisine that enchants every traveler\'s heart. Italy beckons with a symphony of sights and flavors, promising an unforgettable journey.',
-    showPricesAndButton: true,
+    showPricesAndButton: false,
     originalPrice: null,
     offerPrice: null,
     discount: null,
+    
   },
 ];
 

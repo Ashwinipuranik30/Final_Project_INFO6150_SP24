@@ -5,9 +5,7 @@ import Buttons from './Buttons';
 
 const Navlinks = () => {
 
-
-  const [showDropdown, setShowDropdown] = useState(false);
-
+const [showDropdown, setShowDropdown] = useState(false);
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
   };
