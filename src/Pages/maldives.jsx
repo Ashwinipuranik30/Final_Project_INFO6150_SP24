@@ -17,7 +17,7 @@
     },
     {
       title: 'Day 3: Visit the Male fish market and Grand Friday Mosque',
-      description: 'he male fish market boasts some of the greatest fishermen and their catches for the day. After the 2 hours spent here, the next location is the Grand Friday Mosque located at the center of the Male city. This monument is worth 30 minutes to 1 hour of your time.',
+      description: 'The male fish market boasts some of the greatest fishermen and their catches for the day. After the 2 hours spent here, the next location is the Grand Friday Mosque located at the center of the Male city. This monument is worth 30 minutes to 1 hour of your time.',
     },
     {
       title: 'Day 4: Underwater ride',

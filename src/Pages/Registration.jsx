@@ -4,35 +4,35 @@ import Form from '../Components/form';
 
 const fields = [
   {
-    name: 'first-name',
+    name: 'First-name',
     label: 'First Name',
     type: 'text',
     placeholder: 'Enter your first name',
     required: true,
   },
   {
-    name: 'last-name',
+    name: 'Last-name',
     label: 'Last Name',
     type: 'text',
     placeholder: 'Enter your last name',
     required: true,
   },
   {
-    name: 'email',
+    name: 'Email',
     label: 'Email Address',
     type: 'email',
     placeholder: 'Enter your email address',
     required: true,
   },
   {
-    name: 'phone-number',
+    name: 'Phone-number',
     label: 'Phone Number',
     type: 'text',
     placeholder: 'Enter your phone number',
     required: true,
   },
   {
-    name: 'country',
+    name: 'Country',
     label: 'Country',
     type: 'select',
     options: ['United States', 'Canada', 'Mexico', 'Other'],
@@ -40,14 +40,14 @@ const fields = [
     required: true,
   },
   {
-    name: 'address',
+    name: 'Address',
     label: 'Address',
     type: 'textarea',
     placeholder: 'Enter your address',
     required: false,
   },
   {
-    name: 'tour-package',
+    name: 'Tour-package',
     label: 'Tour Package',
     type: 'select',
     options: [
