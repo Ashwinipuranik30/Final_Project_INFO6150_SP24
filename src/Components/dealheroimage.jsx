@@ -10,7 +10,7 @@ const SummerSaleSection = () => {
           <p className="mt-2 my-4 text-sm md:text-lg">For limited time only!</p>
           <p>
           <Buttons href="/registration" color="text-white bg-gray-900 hover:bg-gray-700">
-            Register Now <span aria-hidden="true">&rarr;</span>
+            Register Now 
           </Buttons>
           </p>
         </div>

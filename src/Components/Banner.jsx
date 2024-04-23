@@ -12,7 +12,7 @@ const Banner = () => {
             <strong className="font-semibold">Unlock exclusive offers and register for our unforgettable tours today</strong>
           </p>
           <Buttons href="/registration" color="text-white bg-gray-900 hover:bg-gray-700">
-            Register Now <span aria-hidden="true">&rarr;</span>
+            Register Now 
           </Buttons>
         </div> 
         <div className="flex flex-1 justify-end">

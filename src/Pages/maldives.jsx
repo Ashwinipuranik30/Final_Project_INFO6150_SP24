@@ -33,7 +33,7 @@
     },
     {
       title: 'Day 7: Dhanee!',
-      description: 'Pack your bags and head to the airport, to your next destination, home, or maybe another tour with us',
+      description: 'Pack your bags and head to the airport, to your next destination, home, or maybe another tour with us.',
     },
     
   ];

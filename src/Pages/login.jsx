@@ -31,10 +31,7 @@ const Login = () => {
     <div className="mx-auto max-w-2xl p-16">
       <h2 className="text-3xl font-serif tracking-tight text-amber-400 sm:text-4xl text-center">Login to your account</h2>
       <Form fields={fields} onSubmit={handleSubmit} />
-          <p className="mt-10 text-center text-sm text-gray-500">
-            Not a member?
-            <Link to="/Registration" className="font-semibold leading-6 text-teal-300 hover:text-teal-200">Register for Trip</Link>
-          </p>
+          
     </div>
   );
 };

@@ -27,7 +27,7 @@
     },
     {
       title: 'Day 5: Tropical Paradise in Phuket!',
-      description: 'End your trip in Phuket. And by evening pack your bags and head to the airport, to your next destination',
+      description: 'End your trip in Phuket. And by evening pack your bags and head to the airport, to your next destination.',
     },
   ];
 
