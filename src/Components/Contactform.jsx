@@ -29,7 +29,7 @@ const fields = [
 
 const Contactform = () => {
     const handleSubmit = (formData) => {
-      // Handle form submission (e.g., send data to server, show thank you message)
+     
       window.alert('Thank you for contacting us!');
     };
   
