@@ -2,7 +2,7 @@ import Herosection from "../Components/Herosection";
 import DestinationIntro from "../Components/DestinationIntro";
 import DealCard from "../Components/dealcard";
 import ImageGrid from "../Components/imagegrid";
-import tajmahal from '../assets/images/tajmahal.jpg';
+import thailand2 from '../assets/images/thailand2.jpg';
 import temple from '../assets/images/temple.jpg';
 import indiagallery3 from '../assets/images/indiagallery3.jpg';
 import maldives2 from '../assets/images/maldives2.jpg';
@@ -18,7 +18,7 @@ const Asia = () => {
 
   
   const images = [
-    { src: tajmahal , alt: "india" },
+    { src: thailand2 , alt: "island" },
     { src: maldives2 , alt:"maldives" },
     { src: temple , alt:"india" },
     { src: maldives3 , alt: "maldives" },
@@ -30,7 +30,7 @@ const Asia = () => {
 
   const cards = [
     {
-      imageSrc:"/src/assets/images/India_deals.jpg",
+      imageSrc:"/src/assets/images/india.jpg",
       tourLink:"/destination/asia/india",
           tourTitle:"Vibrant India",
           tourDuration:"10 DAY TOUR",
@@ -40,7 +40,7 @@ const Asia = () => {
           originalPrice:null,
           offerPrice:null,
     },
-    {imageSrc:"/src/assets/images/Thailand_deals.jpg",
+    {imageSrc:"/src/assets/images/thailand.jpg",
     tourLink:"/destination/asia/thailand",
     tourTitle:"Thai Tropical Adventure",
     tourDuration:"5 DAY TOUR",
@@ -50,7 +50,7 @@ const Asia = () => {
     originalPrice:null,
     offerPrice:null,
     },
-    {imageSrc: 'https://images.pexels.com/photos/3601426/pexels-photo-3601426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    {imageSrc: '/src/assets/images/maldives.jpg',
     tourLink: '/destination/asia/maldives',
     tourTitle: 'Maldives Serenity Retreat',
     tourDuration: '7 DAY TOUR',
